@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+TC:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap" rel="stylesheet">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+            crossorigin="anonymous"
+        >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="p_css/p.css">
+        <title>Sidharth P S</title>
+    </head>
+    <body>
+        <header id="#" class="header">
+            <div class="navbar">
+                <ul class="nav-menu" id="navLinks">
+                    <li>
+                        <a href="#home">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#project">PROJECT</a>
+                    </li>
+                    <li>
+                        <a href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+                <div class="icon" onclick="toggleMenu()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <span class="logo">Sidharth P S</span>
+                <a href="assets/SID_resume.pdf" download="Sidharth_resume.pdf" class="nav-btn">
+                    <i class="fa-solid fa-file-arrow-down custom-icon"></i>
+                    &nbsp;Resume
+                </a>
+            </div>
+        </header>
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="row" style="justify-content: space-around;">
+                    <div class="col-4">
+                        <div class="hero-content">
+                            <div class="hc-1">
+                                <h4 class="greeting">Hi,</h4>
+                                <h2 class="name">
+                                    I'm
+                                    <span>Sidharth P S</span>
+                                </h2>
+                                <h1 class="txt">Web Developer</h1>
+                            </div>
+                            <div class="hc-2">
+                                <a href="#project" class="btn btn-primary">See My Work</a>
+                                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="hero-img">
+                            <img src="" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="ab-head">About Me</h2>
+                <p>I'm Sidharth P S, an MCA student with a background in BCA. I have a passion for web development and UI/UX design. My strengths include a quick learning attitude, strong problem-solving skills, and a creative mindset. I enjoy working in collaborative environments and aim to contribute to innovative projects that create real impact.</p>
+                <div class="skills-container">
+                    <div class="education">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>
+                                <strong>MCA – Master of Computer Applications</strong>
+                                <br>MG University | 2024 – Present
+                            </li>
+                            <li>
+                                <strong>BCA – Bachelor of Computer Applications</strong>
+                                <br>MG University | 2021 – 2024
+                            </li>
+                            <li>
+                                <strong>Higher Secondary Education</strong>
+                                <br>Kerala State Board | 2019 – 2021
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="technical-skills">
+                        <h3>Technical Skills</h3>
+                        <ul>
+                            <li>
+                                <strong>Languages:</strong> C, Python, JavaScript
+                            </li>
+                            <li>
+                                <strong>Web Technologies:</strong> HTML, CSS, PHP
+                            </li>
+                            <li>
+                                <strong>Databases:</strong> MySQL, MongoDB
+                            </li>
+                            <li>
+                                <strong>Tools:</strong> Git, VS Code
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="soft-skills">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Problem-Solving</li>
+                            <li>Time Management</li>
+                            <li>Communication</li>
+                            <li>Adaptability</li>
+                            <li>Critical Thinking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="project" class="project-section">
+            <div class="container">
+                <h2 class="pr-head">My Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1: ISL Ticket Booking -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Ticket Booking System">
+                        </div>
+                        <div class="project-content">
+                            <h3>ISL Ticket Booking Website</h3>
+                            <ul>
+                                <li>Built a ticket booking web app using PHP and MySQL</li>
+                                <li>Included login/logout system and user roles for secure access</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>HTML/CSS</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-primary">Live Demo</a>
+                                <a href="#" class="btn btn-secondary">GitHub Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2: SWOC Analysis -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="SWOC Analysis Platform">
+                        </div>
+                        <div class="project-content">
+                            <h3>SWOC Analysis Platform</h3>
+                            <ul>
+                                <li>Developed using Python and MongoDB</li>
+                                <li>Enabled users to enter SWOC data and get assigned to mentors</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span>Python</span>
+                                <span>MongoDB</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="#" class="btn btn-primary">Live Demo</a>
+                                <a href="#" class="btn btn-secondary">GitHub Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="contact-head">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <ul>
+                            <li>
+                                <i class="fas fa-phone"></i> +917736811702
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i> sidharthps738@gmail.com
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i> Thekkedathu, Madappally
+                            </li>
+                            <li>
+                                <i class="fab fa-linkedin"></i> linkedin.com/in/sidharth-p-s-205218282
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <p>&copy; 2024 Sidharth P S. All rights reserved.</p>
+                    <div class="social-links">
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+        <script>
+        function toggleMenu(){
+            const nav = document.getElementById("navLinks");
+            nav.classList.toggle("active");
+        }
+        </script>
+    </body>
+</html>
